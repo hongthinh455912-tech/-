@@ -1,0 +1,51 @@
+
+
+.pageWrapper {
+  background-color: #FFF8F5;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.sidebarLink:hover {
+  background-color: #FFE5CC;
+  color: #FF7A00;
+}
+
+.sidebarLink.active {
+  background-color: #FF7A00;
+  color: white;
+}
+
+.gradientBg {
+  background: linear-gradient(135deg, #FF7A00 0%, #FFB347 100%);
+}
+
+.chartContainer {
+  position: relative;
+  height: 300px;
+  background: white;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 4px 20px rgba(255, 122, 0, 0.08);
+}
+
+.statCard:hover {
+  transform: translateY(-2px);
+  transition: all 0.3s ease;
+}
+
+.progressBar {
+  background: linear-gradient(90deg, #FF7A00 0%, #FFB347 100%);
+}
+
+.lineChart {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+.barChart {
+  position: relative;
+  height: 250px;
+  width: 100%;
+}
+

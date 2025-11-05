@@ -1,0 +1,55 @@
+
+
+.pageWrapper {
+  background-color: #FFF8F5;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.navLinkActive {
+  color: #FF7A00;
+  background-color: #FFE5CC;
+  border-right: 3px solid #FF7A00;
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #FF7A00;
+  box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.1);
+}
+
+.avatarUpload:hover {
+  background-color: rgba(255, 122, 0, 0.05);
+  transition: all 0.3s ease;
+}
+
+.gradientBg {
+  background: linear-gradient(135deg, #FF7A00 0%, #FFB347 100%);
+}
+
+.toast {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+}
+
+.toastShow {
+  transform: translateX(0);
+}
+
+.loadingSpinner {
+  border: 2px solid #f3f3f3;
+  border-top: 2px solid #FF7A00;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+

@@ -1,0 +1,66 @@
+
+
+.pageWrapper {
+  background-color: #FFF8F5;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.navLinkActive {
+  color: #FF7A00;
+  border-bottom: 2px solid #FF7A00;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #FF7A00;
+  box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.1);
+}
+
+.chatButton:hover {
+  transform: scale(1.05);
+  transition: all 0.2s ease;
+}
+
+.gradientBg {
+  background: linear-gradient(135deg, #FF7A00 0%, #FFB347 100%);
+}
+
+.textGradient {
+  background: linear-gradient(135deg, #FF7A00 0%, #FF6B35 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.portfolioImage {
+  transition: transform 0.3s ease;
+}
+
+.portfolioImage:hover {
+  transform: scale(1.02);
+}
+
+.videoContainer {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+}
+
+.videoContainer video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+}
+
+.documentPreview {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border: 2px dashed #dee2e6;
+  border-radius: 0.75rem;
+  padding: 3rem;
+  text-align: center;
+}
+

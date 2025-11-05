@@ -1,0 +1,88 @@
+
+
+.pageWrapper {
+  background-color: #FFF8F5;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.navLinkActive {
+  background-color: rgba(255, 122, 0, 0.1);
+  color: #FF7A00;
+  border-right: 3px solid #FF7A00;
+}
+
+.searchInput:focus {
+  outline: none;
+  border-color: #FF7A00;
+  box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.1);
+}
+
+.tableRow:hover {
+  background-color: rgba(255, 122, 0, 0.02);
+}
+
+.modalBackdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  inset: 0;
+}
+
+.gradientBg {
+  background: linear-gradient(135deg, #FF7A00 0%, #FFB347 100%);
+}
+
+.textGradient {
+  background: linear-gradient(135deg, #FF7A00 0%, #FF6B35 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.btnPrimary {
+  background-color: #FF7A00;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btnPrimary:hover {
+  background-color: #e56a00;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(255, 122, 0, 0.3);
+}
+
+.btnSecondary {
+  background-color: white;
+  color: #718096;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btnSecondary:hover {
+  background-color: #f8fafc;
+  border-color: #FF7A00;
+  color: #FF7A00;
+}
+
+.btnDanger {
+  background-color: #f56565;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.btnDanger:hover {
+  background-color: #e53e3e;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(245, 101, 101, 0.3);
+}
+

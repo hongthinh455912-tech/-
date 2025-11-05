@@ -1,0 +1,52 @@
+
+
+.pageWrapper {
+  background-color: #FFF8F5;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.navLinkActive {
+  background-color: #FF7A00;
+  color: white;
+}
+
+.formInput:focus {
+  outline: none;
+  border-color: #FF7A00;
+  box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.1);
+}
+
+.gradientBg {
+  background: linear-gradient(135deg, #FF7A00 0%, #FFB347 100%);
+}
+
+.textGradient {
+  background: linear-gradient(135deg, #FF7A00 0%, #FF6B35 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.faqItem:hover {
+  background-color: rgba(255, 122, 0, 0.02);
+}
+
+.modalBackdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modalEnter {
+  animation: modalEnter 0.3s ease-out;
+}
+
+@keyframes modalEnter {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+

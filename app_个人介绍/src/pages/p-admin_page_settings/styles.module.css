@@ -1,0 +1,73 @@
+
+
+.pageWrapper {
+  background-color: #FFF8F5;
+  font-family: 'Inter', system-ui, sans-serif;
+}
+
+.navLinkActive {
+  background-color: #FF7A00;
+  color: white;
+}
+
+.navLinkHover:hover {
+  background-color: #FFE5CC;
+  color: #FF7A00;
+}
+
+.formInputFocus:focus {
+  outline: none;
+  border-color: #FF7A00;
+  box-shadow: 0 0 0 3px rgba(255, 122, 0, 0.1);
+}
+
+.gradientBg {
+  background: linear-gradient(135deg, #FF7A00 0%, #FFB347 100%);
+}
+
+.colorOption {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 3px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.colorOption.selected {
+  border-color: #FF7A00;
+  transform: scale(1.1);
+}
+
+.fontOption {
+  padding: 8px 16px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: center;
+}
+
+.fontOption.selected {
+  border-color: #FF7A00;
+  background-color: #FFE5CC;
+  color: #FF7A00;
+}
+
+.uploadArea {
+  border: 2px dashed #cbd5e0;
+  border-radius: 12px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+
+.uploadArea:hover {
+  border-color: #FF7A00;
+  background-color: rgba(255, 122, 0, 0.02);
+}
+
+.uploadArea.dragover {
+  border-color: #FF7A00;
+  background-color: rgba(255, 122, 0, 0.05);
+}
+
